@@ -96,20 +96,24 @@ export default class AndroidSubmitCommand {
     if (!track) {
       return result(SubmissionAndroidTrack.Internal);
     }
-    const capitalizedTrack = capitalizeFirstLetter(track);
-    if (capitalizedTrack in SubmissionAndroidTrack) {
-      return result(
-        SubmissionAndroidTrack[capitalizedTrack as keyof typeof SubmissionAndroidTrack]
-      );
-    } else {
-      return result(
-        new Error(
-          `Unsupported track: ${track} (valid options: ${Object.keys(AndroidReleaseTrack).join(
-            ', '
-          )})`
-        )
-      );
-    }
+
+    const capitalizedTrack = track.toUpperCase();
+    return result(SubmissionAndroidTrack[capitalizedTrack as keyof typeof SubmissionAndroidTrack]);
+
+    // const capitalizedTrack = capitalizeFirstLetter(track);
+    // if (capitalizedTrack in SubmissionAndroidTrack) {
+    //   return result(
+    //     SubmissionAndroidTrack[capitalizedTrack as keyof typeof SubmissionAndroidTrack]
+    //   );
+    // } else {
+    //   return result(
+    //     new Error(
+    //       `Unsupported track: ${track} (valid options: ${Object.keys(AndroidReleaseTrack).join(
+    //         ', '
+    //       )})`
+    //     )
+    //   );
+    // }
   }
 
   private resolveReleaseStatus(): Result<SubmissionAndroidReleaseStatus> {
