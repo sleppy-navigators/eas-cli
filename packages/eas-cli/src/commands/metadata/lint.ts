@@ -1,6 +1,6 @@
 import { Platform } from '@expo/eas-build-job';
-import { EasJsonAccessor } from '@expo/eas-json';
 import { Flags } from '@oclif/core';
+import { EasJsonAccessor } from '@sleppy-navigators/eas-json';
 
 import EasCommand from '../../commandUtils/EasCommand';
 import Log from '../../log';

@@ -1,8 +1,8 @@
 import { ExpoConfig } from '@expo/config';
 import { Platform, Workflow } from '@expo/eas-build-job';
-import { BuildProfile, EasJson } from '@expo/eas-json';
 import { LoggerLevel } from '@expo/logger';
 import { NodePackageManager } from '@expo/package-manager';
+import { BuildProfile, EasJson } from '@sleppy-navigators/eas-json';
 
 import { LocalBuildOptions } from './local';
 import { Analytics, AnalyticsEventProperties } from '../analytics/AnalyticsManager';

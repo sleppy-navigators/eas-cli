@@ -1,6 +1,6 @@
 import { App, Session } from '@expo/apple-utils';
 import { ExpoConfig } from '@expo/config';
-import { SubmitProfile } from '@expo/eas-json';
+import { SubmitProfile } from '@sleppy-navigators/eas-json';
 import assert from 'assert';
 
 import { CredentialsContext } from '../credentials/context';

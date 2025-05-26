@@ -1,4 +1,4 @@
-import { SubmitProfile } from '@expo/eas-json';
+import { SubmitProfile } from '@sleppy-navigators/eas-json';
 import assert from 'assert';
 import fs from 'fs-extra';
 import path from 'path';

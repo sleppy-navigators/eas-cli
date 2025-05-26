@@ -1,7 +1,7 @@
 import { ExpoConfig } from '@expo/config';
 import { Platform } from '@expo/eas-build-job';
-import { BuildProfile } from '@expo/eas-json';
-import { AndroidBuildProfile } from '@expo/eas-json/build/build/types';
+import { BuildProfile } from '@sleppy-navigators/eas-json';
+import { AndroidBuildProfile } from '@sleppy-navigators/eas-json/build/build/types';
 import assert from 'assert';
 import fs from 'fs-extra';
 import { vol } from 'memfs';

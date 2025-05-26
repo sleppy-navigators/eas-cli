@@ -4,13 +4,13 @@ import {
   AndroidReleaseTrack,
   EasJsonAccessor,
   EasJsonUtils,
-} from '@expo/eas-json';
-import { MissingProfileError } from '@expo/eas-json/build/errors';
+} from '@sleppy-navigators/eas-json';
+import { MissingProfileError } from '@sleppy-navigators/eas-json/build/errors';
 
 import { refreshContextSubmitProfileAsync } from '../commons';
 import { SubmissionContext } from '../context';
 
-jest.mock('@expo/eas-json');
+jest.mock('@sleppy-navigators/eas-json');
 
 describe(refreshContextSubmitProfileAsync, () => {
   beforeEach(() => {

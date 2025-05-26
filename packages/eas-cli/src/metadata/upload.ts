@@ -1,5 +1,5 @@
 import { ExpoConfig } from '@expo/config';
-import { SubmitProfile } from '@expo/eas-json';
+import { SubmitProfile } from '@sleppy-navigators/eas-json';
 
 import { AppleData } from './apple/data';
 import { createAppleTasks } from './apple/tasks';

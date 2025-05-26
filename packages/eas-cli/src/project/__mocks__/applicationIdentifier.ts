@@ -1,5 +1,5 @@
 import { ExpoConfig } from '@expo/config';
-import { BuildProfile, Platform } from '@expo/eas-json';
+import { BuildProfile, Platform } from '@sleppy-navigators/eas-json';
 
 import { ExpoGraphqlClient } from '../../commandUtils/context/contextUtils/createGraphqlClient';
 

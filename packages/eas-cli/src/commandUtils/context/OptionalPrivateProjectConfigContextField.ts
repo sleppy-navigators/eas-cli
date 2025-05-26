@@ -1,5 +1,5 @@
 import { ExpoConfig } from '@expo/config';
-import { InvalidEasJsonError } from '@expo/eas-json/build/errors';
+import { InvalidEasJsonError } from '@sleppy-navigators/eas-json/build/errors';
 
 import ContextField, { ContextOptions } from './ContextField';
 import { createGraphqlClient } from './contextUtils/createGraphqlClient';

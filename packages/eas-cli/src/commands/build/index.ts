@@ -1,7 +1,12 @@
 import { Platform } from '@expo/eas-build-job';
-import { BuildProfile, EasJsonAccessor, EasJsonUtils, ResourceClass } from '@expo/eas-json';
 import { LoggerLevel } from '@expo/logger';
 import { Errors, Flags } from '@oclif/core';
+import {
+  BuildProfile,
+  EasJsonAccessor,
+  EasJsonUtils,
+  ResourceClass,
+} from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 import figures from 'figures';
 import fs from 'fs-extra';

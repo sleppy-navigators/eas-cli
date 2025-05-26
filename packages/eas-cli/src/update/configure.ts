@@ -1,6 +1,6 @@
 import { ExpoConfig } from '@expo/config';
 import { Env, Platform, Workflow } from '@expo/eas-build-job';
-import { EasJsonAccessor } from '@expo/eas-json';
+import { EasJsonAccessor } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 import fs from 'fs-extra';
 import nullthrows from 'nullthrows';

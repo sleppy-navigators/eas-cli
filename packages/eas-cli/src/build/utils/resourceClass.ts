@@ -1,5 +1,5 @@
 import { Platform } from '@expo/eas-build-job';
-import { BuildProfile, ResourceClass } from '@expo/eas-json';
+import { BuildProfile, ResourceClass } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 
 import { BuildResourceClass } from '../../graphql/generated';

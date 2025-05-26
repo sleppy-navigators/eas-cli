@@ -1,5 +1,5 @@
-import { EasJsonAccessor } from '@expo/eas-json';
 import { Errors, Flags } from '@oclif/core';
+import { EasJsonAccessor } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 
 import EasCommand from '../commandUtils/EasCommand';

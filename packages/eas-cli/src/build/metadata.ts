@@ -1,5 +1,5 @@
 import { FingerprintSource, Metadata, Platform, sanitizeMetadata } from '@expo/eas-build-job';
-import { IosEnterpriseProvisioning } from '@expo/eas-json';
+import { IosEnterpriseProvisioning } from '@sleppy-navigators/eas-json';
 import fs from 'fs-extra';
 import resolveFrom from 'resolve-from';
 

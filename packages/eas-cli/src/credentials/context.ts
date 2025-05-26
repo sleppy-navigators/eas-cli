@@ -1,6 +1,6 @@
 import { ExpoConfig } from '@expo/config';
 import { Env } from '@expo/eas-build-job';
-import { EasJson } from '@expo/eas-json';
+import { EasJson } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 
 import * as AndroidGraphqlClient from './android/api/GraphqlClient';

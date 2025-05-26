@@ -1,6 +1,6 @@
 import { Platform } from '@expo/eas-build-job';
-import { BuildProfile } from '@expo/eas-json';
 import { errors, readAndValidateBuildConfigFromPathAsync } from '@expo/steps';
+import { BuildProfile } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 import fs from 'fs-extra';
 import path from 'path';

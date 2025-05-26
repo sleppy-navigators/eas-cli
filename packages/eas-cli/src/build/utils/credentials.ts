@@ -1,5 +1,5 @@
 import { Platform } from '@expo/eas-build-job';
-import { CredentialsSource } from '@expo/eas-json';
+import { CredentialsSource } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 
 import Log from '../../log';

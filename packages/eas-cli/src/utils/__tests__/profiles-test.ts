@@ -1,5 +1,5 @@
 import { Platform } from '@expo/eas-build-job';
-import { BuildProfile, EasJsonAccessor, EasJsonUtils, errors } from '@expo/eas-json';
+import { BuildProfile, EasJsonAccessor, EasJsonUtils, errors } from '@sleppy-navigators/eas-json';
 import fs from 'fs-extra';
 import { vol } from 'memfs';
 import os from 'os';
@@ -14,8 +14,8 @@ import {
 
 jest.mock('fs');
 jest.mock('../../prompts');
-jest.mock('@expo/eas-json', () => {
-  const actual = jest.requireActual('@expo/eas-json');
+jest.mock('@sleppy-navigators/eas-json', () => {
+  const actual = jest.requireActual('@sleppy-navigators/eas-json');
 
   const EasJsonUtilsMock = {
     getBuildProfileAsync: jest.fn(),

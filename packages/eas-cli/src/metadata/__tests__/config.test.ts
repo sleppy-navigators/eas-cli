@@ -1,4 +1,4 @@
-import { SubmitProfile } from '@expo/eas-json';
+import { SubmitProfile } from '@sleppy-navigators/eas-json';
 import path from 'path';
 
 import { getStaticConfigFilePath, loadConfigAsync } from '../config/resolve';

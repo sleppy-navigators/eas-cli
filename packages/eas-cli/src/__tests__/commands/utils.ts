@@ -1,6 +1,6 @@
 import { ExpoConfig } from '@expo/config';
-import { AppVersionSource, EasJson } from '@expo/eas-json';
 import { Command, Config } from '@oclif/core';
+import { AppVersionSource, EasJson } from '@sleppy-navigators/eas-json';
 import { vol } from 'memfs';
 import path from 'path';
 import { v4 as uuidv4 } from 'uuid';

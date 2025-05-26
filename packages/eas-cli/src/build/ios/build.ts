@@ -1,5 +1,5 @@
 import { Ios, Metadata, Platform, Workflow } from '@expo/eas-build-job';
-import { AppVersionSource } from '@expo/eas-json';
+import { AppVersionSource } from '@sleppy-navigators/eas-json';
 
 import { ensureIosCredentialsAsync } from './credentials';
 import { transformJob } from './graphql';

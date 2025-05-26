@@ -1,4 +1,4 @@
-import { AppVersionSource, EasJson, EasJsonAccessor } from '@expo/eas-json';
+import { AppVersionSource, EasJson, EasJsonAccessor } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 import fs from 'fs-extra';
 

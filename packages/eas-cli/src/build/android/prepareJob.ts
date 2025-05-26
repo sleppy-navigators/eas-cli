@@ -6,7 +6,7 @@ import {
   Platform,
   sanitizeBuildJob,
 } from '@expo/eas-build-job';
-import { BuildProfile } from '@expo/eas-json';
+import { BuildProfile } from '@sleppy-navigators/eas-json';
 import path from 'path';
 import slash from 'slash';
 

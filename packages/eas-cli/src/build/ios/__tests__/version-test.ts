@@ -1,6 +1,6 @@
 import { ExpoConfig } from '@expo/config';
 import { IOSConfig } from '@expo/config-plugins';
-import { IosBuildProfile } from '@expo/eas-json/build/build/types';
+import { IosBuildProfile } from '@sleppy-navigators/eas-json/build/build/types';
 import fs from 'fs-extra';
 import { vol } from 'memfs';
 import os from 'os';

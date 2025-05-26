@@ -1,7 +1,7 @@
 import { getProjectConfigDescription } from '@expo/config';
 import { Platform } from '@expo/eas-build-job';
-import { EasJsonAccessor, EasJsonUtils } from '@expo/eas-json';
 import { Flags } from '@oclif/core';
+import { EasJsonAccessor, EasJsonUtils } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 
 import { evaluateConfigWithEnvVarsAsync } from '../build/evaluateConfigWithEnvVarsAsync';

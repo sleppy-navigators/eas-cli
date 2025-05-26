@@ -5,7 +5,7 @@ import {
   EasJsonUtils,
   ProfileType,
   SubmitProfile,
-} from '@expo/eas-json';
+} from '@sleppy-navigators/eas-json';
 import fs from 'fs-extra';
 import path from 'path';
 

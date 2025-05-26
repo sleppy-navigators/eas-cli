@@ -1,6 +1,6 @@
 import { ExpoConfig } from '@expo/config';
 import { Platform } from '@expo/eas-build-job';
-import { AppVersionSource, EasJson } from '@expo/eas-json';
+import { AppVersionSource, EasJson } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 import fs from 'fs-extra';
 import path from 'path';

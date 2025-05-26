@@ -6,7 +6,7 @@ import {
   Metadata,
   Platform,
 } from '@expo/eas-build-job';
-import { CredentialsSource } from '@expo/eas-json';
+import { CredentialsSource } from '@sleppy-navigators/eas-json';
 import assert from 'assert';
 import chalk from 'chalk';
 import cliProgress from 'cli-progress';

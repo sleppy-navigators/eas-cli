@@ -1,6 +1,6 @@
 import { Platform as PublishPlatform } from '@expo/config';
-import { EasJson, EasJsonAccessor, EasJsonUtils } from '@expo/eas-json';
 import { Errors, Flags } from '@oclif/core';
+import { EasJson, EasJsonAccessor, EasJsonUtils } from '@sleppy-navigators/eas-json';
 import nullthrows from 'nullthrows';
 
 import { ensureBranchExistsAsync } from '../../branch/queries';

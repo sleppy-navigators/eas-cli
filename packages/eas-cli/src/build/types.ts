@@ -1,5 +1,5 @@
-import { ResourceClass } from '@expo/eas-json';
 import { LoggerLevel } from '@expo/logger';
+import { ResourceClass } from '@sleppy-navigators/eas-json';
 
 import { LocalBuildOptions } from './local';
 import { RequestedPlatform } from '../platform';

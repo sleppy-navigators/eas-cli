@@ -1,4 +1,4 @@
-import { AppVersionSource, EasJsonAccessor } from '@expo/eas-json';
+import { AppVersionSource, EasJsonAccessor } from '@sleppy-navigators/eas-json';
 import fs from 'fs-extra';
 import { vol } from 'memfs';
 

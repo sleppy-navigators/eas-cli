@@ -1,7 +1,7 @@
 import { ExpoConfig } from '@expo/config';
 import { Platform, Workflow } from '@expo/eas-build-job';
-import { BuildProfile, EasJsonAccessor } from '@expo/eas-json';
 import { Flags } from '@oclif/core';
+import { BuildProfile, EasJsonAccessor } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 
 import { updateNativeVersionsAsync as updateAndroidNativeVersionsAsync } from '../../../build/android/version';

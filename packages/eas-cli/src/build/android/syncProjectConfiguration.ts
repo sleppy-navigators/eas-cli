@@ -1,7 +1,7 @@
 import { ExpoConfig } from '@expo/config';
 import { AndroidConfig } from '@expo/config-plugins';
 import { Env, Platform, Workflow } from '@expo/eas-build-job';
-import { AndroidVersionAutoIncrement } from '@expo/eas-json';
+import { AndroidVersionAutoIncrement } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 import fs from 'fs-extra';
 import path from 'path';

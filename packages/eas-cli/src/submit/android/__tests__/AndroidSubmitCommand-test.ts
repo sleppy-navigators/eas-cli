@@ -1,5 +1,5 @@
 import { Platform } from '@expo/eas-build-job';
-import { AndroidReleaseStatus, AndroidReleaseTrack } from '@expo/eas-json';
+import { AndroidReleaseStatus, AndroidReleaseTrack } from '@sleppy-navigators/eas-json';
 import { vol } from 'memfs';
 import { instance, mock } from 'ts-mockito';
 import { v4 as uuidv4 } from 'uuid';

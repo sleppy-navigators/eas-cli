@@ -1,5 +1,5 @@
 import { Env } from '@expo/eas-build-job';
-import { EasJson } from '@expo/eas-json';
+import { EasJson } from '@sleppy-navigators/eas-json';
 
 import { Analytics } from '../../../../analytics/AnalyticsManager';
 import { ExpoGraphqlClient } from '../../../../commandUtils/context/contextUtils/createGraphqlClient';

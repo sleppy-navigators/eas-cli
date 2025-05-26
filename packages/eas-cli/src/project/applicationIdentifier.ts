@@ -1,6 +1,6 @@
 import { ExpoConfig } from '@expo/config';
 import { Env, Platform, Workflow } from '@expo/eas-build-job';
-import { BuildProfile } from '@expo/eas-json';
+import { BuildProfile } from '@sleppy-navigators/eas-json';
 
 import {
   ensureApplicationIdIsDefinedForManagedProjectAsync,

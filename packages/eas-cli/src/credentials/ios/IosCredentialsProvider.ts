@@ -4,7 +4,7 @@ import {
   DistributionType,
   EasJsonAccessor,
   IosEnterpriseProvisioning,
-} from '@expo/eas-json';
+} from '@sleppy-navigators/eas-json';
 
 import { getAppFromContextAsync } from './actions/BuildCredentialsUtils';
 import { SetUpBuildCredentials } from './actions/SetUpBuildCredentials';

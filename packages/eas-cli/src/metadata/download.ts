@@ -1,5 +1,5 @@
 import { ExpoConfig } from '@expo/config';
-import { SubmitProfile } from '@expo/eas-json';
+import { SubmitProfile } from '@sleppy-navigators/eas-json';
 import fs from 'fs-extra';
 import path from 'path';
 

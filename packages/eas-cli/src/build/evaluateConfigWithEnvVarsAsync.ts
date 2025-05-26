@@ -1,5 +1,5 @@
 import { Env } from '@expo/eas-build-job';
-import { BuildProfile } from '@expo/eas-json';
+import { BuildProfile } from '@sleppy-navigators/eas-json';
 
 import { isEnvironment } from './utils/environment';
 import { ExpoGraphqlClient } from '../commandUtils/context/contextUtils/createGraphqlClient';

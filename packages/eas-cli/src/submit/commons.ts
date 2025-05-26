@@ -1,6 +1,6 @@
 import { Platform } from '@expo/eas-build-job';
-import { EasJsonAccessor, EasJsonUtils, SubmitProfile } from '@expo/eas-json';
-import { MissingProfileError } from '@expo/eas-json/build/errors';
+import { EasJsonAccessor, EasJsonUtils, SubmitProfile } from '@sleppy-navigators/eas-json';
+import { MissingProfileError } from '@sleppy-navigators/eas-json/build/errors';
 
 import { ArchiveSource, ArchiveSourceType, isUuidV4 } from './ArchiveSource';
 import { SubmissionContext } from './context';

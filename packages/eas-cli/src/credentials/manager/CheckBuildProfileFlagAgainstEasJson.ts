@@ -1,5 +1,5 @@
 import { Platform } from '@expo/eas-build-job';
-import { BuildProfile, EasJsonAccessor, EasJsonUtils } from '@expo/eas-json';
+import { BuildProfile, EasJsonAccessor, EasJsonUtils } from '@sleppy-navigators/eas-json';
 
 import Log from '../../log';
 

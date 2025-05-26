@@ -1,7 +1,12 @@
 import { ExpoConfig } from '@expo/config';
 import { Platform } from '@expo/eas-build-job';
-import { AppVersionSource, EasJson, EasJsonAccessor, EasJsonUtils } from '@expo/eas-json';
 import { Errors } from '@oclif/core';
+import {
+  AppVersionSource,
+  EasJson,
+  EasJsonAccessor,
+  EasJsonUtils,
+} from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 
 import { BuildFlags } from '../build/types';

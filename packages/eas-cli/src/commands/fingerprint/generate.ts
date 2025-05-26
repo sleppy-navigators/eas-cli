@@ -1,6 +1,6 @@
 import { Env } from '@expo/eas-build-job';
-import { EasJsonAccessor } from '@expo/eas-json';
 import { Flags } from '@oclif/core';
+import { EasJsonAccessor } from '@sleppy-navigators/eas-json';
 
 import { getExpoWebsiteBaseUrl } from '../../api';
 import { evaluateConfigWithEnvVarsAsync } from '../../build/evaluateConfigWithEnvVarsAsync';

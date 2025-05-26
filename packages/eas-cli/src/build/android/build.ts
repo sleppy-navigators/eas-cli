@@ -1,5 +1,5 @@
 import { Android, Metadata, Platform, Workflow } from '@expo/eas-build-job';
-import { AppVersionSource } from '@expo/eas-json';
+import { AppVersionSource } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 import getenv from 'getenv';
 import nullthrows from 'nullthrows';

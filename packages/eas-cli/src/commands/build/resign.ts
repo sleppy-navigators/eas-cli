@@ -1,6 +1,11 @@
 import { Platform } from '@expo/eas-build-job';
-import { CredentialsSource, EasJson, EasJsonAccessor, EasJsonUtils } from '@expo/eas-json';
 import { Flags } from '@oclif/core';
+import {
+  CredentialsSource,
+  EasJson,
+  EasJsonAccessor,
+  EasJsonUtils,
+} from '@sleppy-navigators/eas-json';
 import assert from 'assert';
 import chalk from 'chalk';
 

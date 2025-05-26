@@ -4,8 +4,8 @@ import { EasJsonAccessor } from '../accessor';
 import { AndroidBuildProfile, IosBuildProfile } from '../build/types';
 import { EasJsonUtils } from '../utils';
 
-jest.mock('@expo/eas-json', () => {
-  const actual = jest.requireActual('@expo/eas-json');
+jest.mock('@sleppy-navigators/eas-json', () => {
+  const actual = jest.requireActual('@sleppy-navigators/eas-json');
 
   const EasJsonUtilsMock = {
     getBuildProfileAsync: jest.fn(),

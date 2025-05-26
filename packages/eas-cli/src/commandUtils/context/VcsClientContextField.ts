@@ -1,4 +1,4 @@
-import { EasJsonAccessor, EasJsonUtils } from '@expo/eas-json';
+import { EasJsonAccessor, EasJsonUtils } from '@sleppy-navigators/eas-json';
 
 import ContextField from './ContextField';
 import { findProjectDirAndVerifyProjectSetupAsync } from './contextUtils/findProjectDirAndVerifyProjectSetupAsync';

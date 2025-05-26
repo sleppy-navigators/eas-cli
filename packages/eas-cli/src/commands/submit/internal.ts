@@ -1,6 +1,6 @@
 import { Platform, SubmissionConfig } from '@expo/eas-build-job';
-import { EasJsonAccessor, EasJsonUtils } from '@expo/eas-json';
 import { Flags } from '@oclif/core';
+import { EasJsonAccessor, EasJsonUtils } from '@sleppy-navigators/eas-json';
 import nullthrows from 'nullthrows';
 import { z } from 'zod';
 

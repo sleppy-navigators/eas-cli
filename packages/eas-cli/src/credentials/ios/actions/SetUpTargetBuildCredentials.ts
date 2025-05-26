@@ -1,5 +1,5 @@
-import { DistributionType, IosEnterpriseProvisioning } from '@expo/eas-json';
 import { JSONObject } from '@expo/json-file';
+import { DistributionType, IosEnterpriseProvisioning } from '@sleppy-navigators/eas-json';
 
 import { SetUpAdhocProvisioningProfile } from './SetUpAdhocProvisioningProfile';
 import { SetUpInternalProvisioningProfile } from './SetUpInternalProvisioningProfile';

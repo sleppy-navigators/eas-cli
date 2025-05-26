@@ -1,5 +1,5 @@
-import { EasJsonAccessor, EasJsonUtils } from '@expo/eas-json';
 import * as PackageManagerUtils from '@expo/package-manager';
+import { EasJsonAccessor, EasJsonUtils } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 import fs from 'fs-extra';
 import path from 'path';

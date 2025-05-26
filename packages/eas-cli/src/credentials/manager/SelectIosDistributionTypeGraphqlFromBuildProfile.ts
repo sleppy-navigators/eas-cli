@@ -1,5 +1,5 @@
 import { Platform } from '@expo/eas-build-job';
-import { BuildProfile } from '@expo/eas-json';
+import { BuildProfile } from '@sleppy-navigators/eas-json';
 
 import { IosDistributionType as IosDistributionTypeGraphql } from '../../graphql/generated';
 import { promptAsync } from '../../prompts';

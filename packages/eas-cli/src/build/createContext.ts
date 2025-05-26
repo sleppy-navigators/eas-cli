@@ -1,8 +1,8 @@
 import { Platform } from '@expo/eas-build-job';
-import { BuildProfile, EasJson, ResourceClass } from '@expo/eas-json';
 import JsonFile from '@expo/json-file';
 import { LoggerLevel } from '@expo/logger';
 import { resolvePackageManager } from '@expo/package-manager';
+import { BuildProfile, EasJson, ResourceClass } from '@sleppy-navigators/eas-json';
 import getenv from 'getenv';
 import resolveFrom from 'resolve-from';
 import { v4 as uuidv4 } from 'uuid';

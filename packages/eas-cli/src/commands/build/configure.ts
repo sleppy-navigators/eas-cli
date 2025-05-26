@@ -1,6 +1,6 @@
 import { Platform, Workflow } from '@expo/eas-build-job';
-import { EasJson, EasJsonAccessor, EasJsonUtils } from '@expo/eas-json';
 import { Flags } from '@oclif/core';
+import { EasJson, EasJsonAccessor, EasJsonUtils } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 
 import { cleanUpOldEasBuildGradleScriptAsync } from '../../build/android/syncProjectConfiguration';

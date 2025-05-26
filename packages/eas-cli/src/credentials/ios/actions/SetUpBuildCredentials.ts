@@ -1,4 +1,4 @@
-import { DistributionType, IosEnterpriseProvisioning } from '@expo/eas-json';
+import { DistributionType, IosEnterpriseProvisioning } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 import nullthrows from 'nullthrows';
 

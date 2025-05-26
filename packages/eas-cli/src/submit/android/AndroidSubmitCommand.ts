@@ -1,6 +1,6 @@
 import { Platform } from '@expo/eas-build-job';
-import { AndroidReleaseStatus, AndroidReleaseTrack } from '@expo/eas-json';
 import { Result, result } from '@expo/results';
+import { AndroidReleaseStatus, AndroidReleaseTrack } from '@sleppy-navigators/eas-json';
 
 import AndroidSubmitter, { AndroidSubmissionOptions } from './AndroidSubmitter';
 import { ServiceAccountSource, ServiceAccountSourceType } from './ServiceAccountSource';

@@ -1,7 +1,7 @@
 import { ExpoConfig } from '@expo/config';
 import { IOSConfig, Updates } from '@expo/config-plugins';
 import { Platform, Workflow } from '@expo/eas-build-job';
-import { BuildProfile } from '@expo/eas-json';
+import { BuildProfile } from '@sleppy-navigators/eas-json';
 import chalk from 'chalk';
 import path from 'path';
 import type { XCBuildConfiguration } from 'xcode';

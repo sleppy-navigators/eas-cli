@@ -1,5 +1,5 @@
 import { Platform } from '@expo/eas-build-job';
-import { BuildProfile } from '@expo/eas-json';
+import { BuildProfile } from '@sleppy-navigators/eas-json';
 
 import { CredentialsContext } from '../../credentials/context';
 import IosCredentialsProvider from '../../credentials/ios/IosCredentialsProvider';

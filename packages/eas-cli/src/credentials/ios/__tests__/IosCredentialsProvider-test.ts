@@ -1,4 +1,4 @@
-import { CredentialsSource } from '@expo/eas-json';
+import { CredentialsSource } from '@sleppy-navigators/eas-json';
 import { vol } from 'memfs';
 
 import { IosAppBuildCredentialsFragment } from '../../../graphql/generated';

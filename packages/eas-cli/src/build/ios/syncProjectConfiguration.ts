@@ -1,6 +1,6 @@
 import { ExpoConfig } from '@expo/config';
 import { Env, Platform, Workflow } from '@expo/eas-build-job';
-import { IosVersionAutoIncrement } from '@expo/eas-json';
+import { IosVersionAutoIncrement } from '@sleppy-navigators/eas-json';
 
 import { BumpStrategy, bumpVersionAsync, bumpVersionInAppJsonAsync } from './version';
 import { Target } from '../../credentials/ios/types';

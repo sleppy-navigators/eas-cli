@@ -1,5 +1,6 @@
 import { ExpoConfig } from '@expo/config';
 import { Env, Platform, Workflow } from '@expo/eas-build-job';
+import { LoggerLevel } from '@expo/logger';
 import {
   AppVersionSource,
   EasJson,
@@ -7,8 +8,7 @@ import {
   EasJsonUtils,
   ResourceClass,
   SubmitProfile,
-} from '@expo/eas-json';
-import { LoggerLevel } from '@expo/logger';
+} from '@sleppy-navigators/eas-json';
 import assert from 'assert';
 import chalk from 'chalk';
 import { pathExists } from 'fs-extra';
