@@ -1,7 +1,7 @@
 {
   "name": "@sleppy-navigators/eas-cli",
   "description": "EAS command line tool",
-  "version": "16.6.3",
+  "version": "16.6.4",
   "author": "Expo <support@expo.dev>",
   "bin": {
     "eas": "./bin/run"
