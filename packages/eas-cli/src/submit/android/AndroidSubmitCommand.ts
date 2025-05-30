@@ -98,7 +98,7 @@ export default class AndroidSubmitCommand {
     }
 
     const capitalizedTrack = track.toUpperCase();
-    return result(SubmissionAndroidTrack[capitalizedTrack as keyof typeof SubmissionAndroidTrack]);
+    return result(capitalizedTrack as SubmissionAndroidTrack);
 
     // const capitalizedTrack = capitalizeFirstLetter(track);
     // if (capitalizedTrack in SubmissionAndroidTrack) {
