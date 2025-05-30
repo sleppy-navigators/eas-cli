@@ -2788,7 +2788,7 @@
     "@sinonjs/commons" "^3.0.0"
 
 "@sleppy-navigators/eas-cli@file:/Users/mac/Projects/eas-cli/packages/eas-cli":
-  version "16.6.5"
+  version "16.6.6"
   resolved "file:packages/eas-cli"
   dependencies:
     "@expo/apple-utils" "2.1.12"
